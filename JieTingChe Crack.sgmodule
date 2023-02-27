@@ -1,3 +1,5 @@
+#!name=JieTingChe
+#!desc=捷停车自动签到
 [MITM]
 hostname = %APPEND% sytgate.jslife.com.cn
 
