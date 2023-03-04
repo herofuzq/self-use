@@ -3,7 +3,7 @@
 
 
 [MITM]
-113.96.156.178, *.ximalaya.com
+hostname = %APPEND% 113.96.156.178, *.ximalaya.com
 
 [Script]
 http-request ^https?:\/\/.*\/mobile\-user\/(v1\/)?homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
